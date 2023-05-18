@@ -1,17 +1,13 @@
 #include "robot.hpp"
 #include "mbed.h"
 
-ROBOT::ROBOT(PinName EN_12,PinName A_1,PinName A_2, PinName EN_34,PinName A_3,PinName A_4) : EN12(EN_12), A1(A_1), A2(A_2), EN34(EN_34), A3(A_3), A4(A_4) {}
+ROBOT::ROBOT(PinName mot1Plus,PinName mot1Moins,PinName mot2Plus, PinName mot2Moins,PinName mot3Plus,PinName mot3Moins) : mot1Plus(mot1P), mot1Moins(mot1M), mot2Plus(mot2P), mot2Moins(mot2M), mot3Plus(mot3P), mot3Moins(mot3M) {}
 
 
-void ROBOT::setSpeed(int speed)
+void ROBOT::setSpeed(int mot1, int mot2, int mot3)
 {
 
-    if (speed >= 0 && speed <= 100)
-    {
-        wheelSpeed = 0.60f + ((static_cast<float>(speed))/100.00f) * 0.40f;
-    }
-    else wheelSpeed = 1.0f;
+    
 }
 
 void ROBOT::move(int x, int y, int t)
@@ -22,19 +18,25 @@ void ROBOT::move(int x, int y, int t)
 
 void ROBOT::init()
 {
-    A1.period(1.0f / 2000);
-    A2.period(1.0f / 2000);
-    A3.period(1.0f / 2000);
-    A4.period(1.0f / 2000);
-    A3.period(1.0f / 2000);
-    A4.period(1.0f / 2000);
+    mot1P.period(1.0f / 2000);
+    mot1M.period(1.0f / 2000);
+
+    mot2P.period(1.0f / 2000);
+    mot2M.period(1.0f / 2000);
+
+    mot3P.period(1.0f / 2000);
+    mot3M.period(1.0f / 2000);
     setSpeed(0);
 }
 
 void ROBOT::stop()
 {
-    A1.write(0);
-    A2.write(0);
-    A3.write(0);
-    A4.write(0);
+    mot1P.write(0);
+    mot1M.write(0);
+
+    mot2P.write(0);
+    mot2M.write(0);
+
+    mot3P.write(0);
+    mot3M.write(0);
 }

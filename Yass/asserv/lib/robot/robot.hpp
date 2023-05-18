@@ -17,8 +17,6 @@ class ROBOT {
         PwmOut mot3M;
         
         float wheelSpeed;
-        void enableMotor();
-        void disableMotor();
         int diffspeed = 0.06;
     
     public:
@@ -27,9 +25,6 @@ class ROBOT {
         void init();
         void setSpeed(int speed);
         void move(int x, int y, int t);
-        void backward();
-        void turnRight();
-        void turnLeft();
         void stop();
     
         
