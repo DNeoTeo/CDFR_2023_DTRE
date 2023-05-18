@@ -1,7 +1,7 @@
 #include "robot.hpp"
 #include <mbed.h>
 
-ROBOT::ROBOT(PinName mot1Plus,PinName mot1Moins,PinName mot2Plus, PinName mot2Moins,PinName mot3Plus,PinName mot3Moins) : mot1Plus(mot1P), mot1Moins(mot1M), mot2Plus(mot2P), mot2Moins(mot2M), mot3Plus(mot3P), mot3Moins(mot3M) {}
+ROBOT::ROBOT(PinName mot1Plus,PinName mot1Moins,PinName mot2Plus, PinName mot2Moins,PinName mot3Plus,PinName mot3Moins) : mot1P(mot1Plus), mot1M(mot1Moins), mot2P(mot2Plus), mot2M(mot2Moins), mot3P(mot3Plus), mot3M(mot3Moins) {}
 
 
 void ROBOT::setSpeed(int mot1, int mot2, int mot3)
