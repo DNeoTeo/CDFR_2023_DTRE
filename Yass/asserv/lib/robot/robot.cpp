@@ -1,12 +1,20 @@
 #include "robot.hpp"
-#include "mbed.h"
+#include <mbed.h>
 
 ROBOT::ROBOT(PinName mot1Plus,PinName mot1Moins,PinName mot2Plus, PinName mot2Moins,PinName mot3Plus,PinName mot3Moins) : mot1Plus(mot1P), mot1Moins(mot1M), mot2Plus(mot2P), mot2Moins(mot2M), mot3Plus(mot3P), mot3Moins(mot3M) {}
 
 
 void ROBOT::setSpeed(int mot1, int mot2, int mot3)
 {
+    wheelSpeed = 0.8;
+    mot1P.write(wheelSpeed);
+    mot1M.write(0);
 
+    mot2P.write(wheelSpeed);
+    mot2M.write(0);
+
+    mot3P.write(wheelSpeed);
+    mot3M.write(0);
     
 }
 

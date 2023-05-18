@@ -17,13 +17,12 @@ class ROBOT {
         PwmOut mot3M;
         
         float wheelSpeed;
-        int diffspeed = 0.06;
     
     public:
         
-        ROBOT(PinName EN_12,PinName A_1,PinName A_2, PinName EN_34,PinName A_3,PinName A_4);
+        ROBOT(PinName mot1Plus,PinName mot1Moins,PinName mot2Plus, PinName mot2Moins,PinName mot3Plus,PinName mot3Moins);
         void init();
-        void setSpeed(int speed);
+        void setSpeed(int mot1, int mot2, int mot3);
         void move(int x, int y, int t);
         void stop();
     
