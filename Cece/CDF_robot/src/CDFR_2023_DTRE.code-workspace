@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../CDF/CDFR_2023_DTRE"
+		},
+		{
+			"name": "CDF_robot",
+			"path": ".."
+		},
+		{
+			"name": "CDF_le_vrai",
+			"path": "../../CDF_le_vrai"
+		}
+	],
+	"settings": {
+		"stm32-for-vscode.openOCDPath": false,
+		"stm32-for-vscode.armToolchainPath": false
+	}
+}
