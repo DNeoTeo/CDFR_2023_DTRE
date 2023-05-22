@@ -1,5 +1,9 @@
 # CDFR_2023_DTRE
 
+![image](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/c3fe8989-7b09-43c2-a0f1-1de80fcbd096)
+
+![image](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/dff0ae96-79b9-467c-ab5d-a4bde9440223)
+
 ## Introduction
 
 La coupe de France de robotique ou EurobotOpen est un événement de robotique amateur organisé par Planète Science chaque année depuis 1994. Elle est ouverte aux différents clubs de robotique, structures d’enseignement ou bien tout passionné de robotique amateur voulant participer à une compétition de robotique. Le but de Planète Science est de faire découvrir les sciences à un large public, des plus jeunes au plus grands, avec différents événements.
