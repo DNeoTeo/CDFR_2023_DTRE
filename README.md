@@ -1,8 +1,6 @@
 # CDFR_2023_DTRE
 
-![image](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/c3fe8989-7b09-43c2-a0f1-1de80fcbd096)
-
-![image](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/dff0ae96-79b9-467c-ab5d-a4bde9440223)
+![LOGO_DTRE BLEU DEGRADE](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/82bda3de-cef2-40c6-b9d6-6f9a5922bbf4)
 
 ## Introduction
 
@@ -41,3 +39,4 @@ Le panier sera en dehors de l’aire de jeu, sur le bord de la table. Il devra p
 Nous étions 5 et nous avons passé un super moment, sur 4 jours nous avons très bien avancé sur le robot. Nous avons rencontré beaucoup d'équipes différentes provenant de toute la France mais aussi d'autre pays comme Taïwan, l'espagne, Algérie...
 C'était une expérience très constructive pour l'année prochaine puisque ce projet commence seulement puisque la DTRE a pour objectif d'y participer chaque année à partir de cette année.
 
+![image](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/c3fe8989-7b09-43c2-a0f1-1de80fcbd096)
