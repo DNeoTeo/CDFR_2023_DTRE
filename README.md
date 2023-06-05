@@ -34,7 +34,7 @@ Le panier sera en dehors de l’aire de jeu, sur le bord de la table. Il devra p
 
 ## Le jour J  
 
-![IMG_1225](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/856e8dd1-77f0-4f21-9fd2-2c1f080f543d)
+![IMG_1225](https://github.com/DNeoTeo/CDFR_2023_DTRE/assets/48857676/750b0248-2b6a-42d3-a342-c622c1fb8450)
 
 Nous étions 5 et nous avons passé un super moment, sur 4 jours nous avons très bien avancé sur le robot. Nous avons rencontré beaucoup d'équipes différentes provenant de toute la France mais aussi d'autre pays comme Taïwan, l'espagne, Algérie...
 C'était une expérience très constructive pour l'année prochaine puisque ce projet commence seulement puisque la DTRE a pour objectif d'y participer chaque année à partir de cette année.
